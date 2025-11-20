@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block body%}
+<h1>分析結果</h1>
+
+スパイク成功率: {{ seiko_attack }}%<br>
+スパイク効率: {{ koritu_attack }}%<br>
+スパイクミス率: {{ fail_attack }}%<br>
+被ブロック率: {{ blocked_attack }}%<br>
+<br>
+サーブ成功率: {{ seiko_serve }}%<br>
+サーブ効率: {{ koritu_serve }}%<br>
+サーブミス率: {{ fail_serve }}%<br>
+
+<a href="/reflect/{{ post.id }}" role="button">詳細と反省</a>
+<a href="/update/{{ post.id }}" role="button">編集</a>
+<a href="/" role="button">トップページへ</a>
+
+{% endblock %}

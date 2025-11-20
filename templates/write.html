@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="form">
+  <form action="/" method="POST">
+    <div>
+        <label for="day">試合日</label>
+        <input type="date" name="day" required>
+    </div>
+
+    <div>
+        <label for="match_name">対戦相手</label>
+        <input type="text" name="match_name" required>
+    </div>
+
+    <div>
+        <label for="all_attack">総スパイク数</label>
+        <input type="number" name="all_attack" required>
+    </div>
+
+    <div>
+        <label for="score_attack">スパイク決定数</label>
+        <input type="number" name="score_attack" required>
+    </div>
+
+    <div>
+        <label for="miss_attack">スパイクミス数</label>
+        <input type="number" name="miss_attack" required>
+    </div>
+
+    <div>
+        <label for="block_attack">被ブロック数</label>
+        <input type="number" name="block_attack" required>
+    </div>
+    
+    <div>
+        <label for="all_serve">総サーブ数</label>
+        <input type="number" name="all_serve" required>
+    </div>
+
+    <div>
+        <label for="score_serve">サーブ決定数</label>
+        <input type="number" name="score_serve" required>
+    </div>
+
+    <div>
+        <label for="miss_serve">サーブミス数</label>
+        <input type="number" name="miss_serve" required>
+    </div>
+
+    <div>
+        <label for="reflect">反省</label>
+        <textarea name="reflect" rows="5" cols="50" required></textarea>
+    </div>
+
+    <div>
+        <input type="submit" value="登録">
+    </div>   
+  </form>
+</div>
+
+{% endblock %}
+
+

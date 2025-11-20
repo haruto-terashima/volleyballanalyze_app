@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<div class="container">
+    <a class="btn btn-info btn-lg m-5" href="/write" role="button">バレーデータを入力しよう</a>
+{% for post in posts %}
+    <p>試合日{{ post.day.date() }}</p>
+    <p>対戦相手{{ post.match_name }}</p>
+     <a class="btn btn-secondary btn-sm" href="/reflect/{{ post.id }}" role="button">詳細と反省</a>
+             <a class="btn btn-success btn-sm" href="/analyze/{{ post.id }}" role="button">分析結果</a>
+            <a class="btn btn-success btn-sm" href="/update/{{ post.id }}" role="button">編集</a>
+            <a class="btn btn-danger btn-sm" href="/delete/{{ post.id }}" role="button" onclick=return confirm("本当に削除しますか？"};>消去</a>
+{% endfor %}
+{% endblock %}
+    

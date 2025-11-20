@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h1>詳細と反省</h1>
+
+<div>
+    <h2>反省</h2>
+    <p>{{ post.reflect }}</p>
+</div>  
+    <h2>詳細</h2>
+    <p>試合日{{ post.day.date() }}</p>
+    <p>対戦相手{{ post.match_name }}</p>
+    <p>総スパイク数{{ post.all_attack }}</p>
+    <p>スパイク決定数{{ post.score_attack }}</p>
+    <p>スパイクミス数{{ post.miss_attack }}</p>
+    <p>非ブロック数{{ post.block_attack }}</p>
+    <p>総サーブ数{{ post.all_serve }}</p>
+    <p>サーブ決定数{{ post.score_serve }}</p>
+    <p>サーブミス数{{ post.miss_serve }}</p>
+    
+    <a href="/analyze/{{ post.id}}" role="button">分析結果</a>
+    <a href="/" role="button">トップページへ</a>
+{% endblock %}
