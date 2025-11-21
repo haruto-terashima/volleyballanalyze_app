@@ -103,4 +103,14 @@ python anly.py
 
 
 
+
+<img width="1387" height="910" alt="スクリーンショット 2025-11-21 151228" src="https://github.com/user-attachments/assets/f4b7abf6-8286-46bf-98a1-92849fa55efa" />
+
+
+
+
+
+
+
+
     
