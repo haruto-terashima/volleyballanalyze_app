@@ -101,10 +101,14 @@ webapp_vb
 pip install -r requirements.txt
 python anly.py
 
-
-
-
+## webアプリの画像
 <img width="1387" height="910" alt="スクリーンショット 2025-11-21 151228" src="https://github.com/user-attachments/assets/f4b7abf6-8286-46bf-98a1-92849fa55efa" />
+<img width="1014" height="833" alt="スクリーンショット 2025-11-21 151237" src="https://github.com/user-attachments/assets/66be0efd-4f3d-415d-a268-57f4420cf52f" />
+<img width="1358" height="885" alt="スクリーンショット 2025-11-21 151255" src="https://github.com/user-attachments/assets/9c57169d-1bc9-42cf-ac7d-bfe1ee068860" />
+<img width="703" height="658" alt="スクリーンショット 2025-11-21 151304" src="https://github.com/user-attachments/assets/936f51fe-8728-44d4-a30b-820366b58b06" />
+<img width="1258" height="833" alt="スクリーンショット 2025-11-21 151315" src="https://github.com/user-attachments/assets/e7b9aab1-ccdb-4a43-b7b6-45cf88f259e5" />
+<img width="797" height="289" alt="スクリーンショット 2025-11-21 151320" src="https://github.com/user-attachments/assets/aee6e9d0-037b-4ba1-9b1c-2052a95041cb" />
+
 
 
 
