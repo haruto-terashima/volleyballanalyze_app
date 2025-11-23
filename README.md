@@ -10,10 +10,11 @@
 - 削除時の確認ダイアログ
 
 ## 使用技術
-Python 3
-Flask
-Flask-SQLAlchemy
-SQLite
+
+Python 3.12.12
+Flask 3.1.2
+Flask-SQLAlchemy 3.1.1
+SQLite 3.51.0
 HTML / CSS
 Bootstrap
 
