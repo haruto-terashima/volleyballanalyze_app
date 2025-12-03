@@ -4,6 +4,8 @@
 
 <div class="container">
     <a class="btn btn-info btn-lg m-5" href="/write" role="button">バレーデータを入力しよう</a>
+     <a class="btn btn-info btn-lg m-5" href="/graph" role="button">過去データのグラフ化</a>
+     <a class="btn btn-info btn-lg m-5" href="/logout" role="button">ログアウト</a>
 {% for post in posts %}
     <p>試合日{{ post.day.date() }}</p>
     <p>対戦相手{{ post.match_name }}</p>

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h1>ログイン</h1>
+{{ msg }}
+<form method = "POST">
+    <label for = "username">ユーザー名</label>
+    <input type="text" name="username" id="username">
+    <label for = "password">パスワード</label>
+    <input type="text" name="password" id="password">
+    <input type="submit" value = "ログイン" >
+    <a class="btn btn-danger btn-sm" href="/signup" role="button">登録はこちらから</a>
+</form>    
+{% endblock %}
